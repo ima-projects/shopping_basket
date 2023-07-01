@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [{
+        "type": "scala",
+        "request": "launch",
+        "name": "Project",
+        "mainClass": "com.ibtisam.priceBasket.PriceBasket",
+        "args": [],
+        "jvmOptions": [],
+        "env": {}
+    },
+        {
+        "type": "scala",
+        "request": "attach",
+        "name": "Other",
+        "buildTarget": "shopping_basket2-build",
+        "hostName": "localhost",
+        "port": 5005
+        },
+        {
+        "type": "scala",
+        "request": "launch",
+        "name": "Test",
+        "testClass": "com.ibtisam.priceBasket.TestStarter"
+        }
+
+    ]
+
+}
