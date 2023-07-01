@@ -7,8 +7,9 @@ ThisBuild / organizationName := "ibtisam"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "shopping_basket2",
+    name := "shopping_basket",
     libraryDependencies += "org.scalameta" %% "munit" % "0.7.29" % Test
+
 
   )
 
