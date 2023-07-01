@@ -3,7 +3,7 @@
 ## How to run the project (executing a JAR file)
 - Clone the repo
 - At the root directory (directory containing the build.sbt) run `java -cp project/shopping_basket-assembly-0.1.0-SNAPSHOT.jar com.ibtisam.priceBasket.PriceBasket [your items here]`
-example: `java -cp project/shopping_basket-assembly-0.1.0-SNAPSHOT.jar com.ibtisam.priceBasket.PriceBasket Apples`
+    * Example: `java -cp project/shopping_basket-assembly-0.1.0-SNAPSHOT.jar com.ibtisam.priceBasket.PriceBasket Apples` 
 
 ## VSCode Installation Setup
 - Clone the repo
